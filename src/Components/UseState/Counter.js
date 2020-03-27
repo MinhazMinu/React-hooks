@@ -14,7 +14,7 @@ const Counter = () => {
   // 3. initialize initial value
   const [count, setCount] = useState(0);
   return (
-    <div>
+    <div className="container border m-5 p-5">
       <h4>Counter</h4>
       {/* 4.use "setState" function to set new state value */}
       <button className="btn btn-info" onClick={() => setCount(count + 1)}>
