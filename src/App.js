@@ -10,6 +10,8 @@ import SummeryUseState from "./Components/UseState/SummeryUseState";
 import CounterUE from "./Components/UseEffect/CounterUE";
 import CounterUE2 from "./Components/UseEffect/CounterUE2";
 import MouseUE3 from "./Components/UseEffect/MouseUE3";
+import MouseContainer from "./Components/UseEffect/MouseContainer4";
+import CounterUE5 from "./Components/UseEffect/CounterUE5";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/* UseEffect */}
       <CounterUE></CounterUE>
       <CounterUE2></CounterUE2>
-      <MouseUE3></MouseUE3>
+      {/* <MouseUE3></MouseUE3> */}
+      <MouseContainer></MouseContainer>
+      <CounterUE5></CounterUE5>
     </div>
   );
 }
