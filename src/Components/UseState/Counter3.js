@@ -8,7 +8,7 @@ const Counter3 = () => {
     <div className="container border m-5 p-5">
       <h4>State variable as object</h4>
       <h6 className="text-danger">
-        useState dose not Automatically marge on update <br />
+        useState dose not Automatically marge object on update <br />
         We need to marge manually{" "}
       </h6>
       <form>
