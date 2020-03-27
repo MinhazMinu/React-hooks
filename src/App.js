@@ -6,6 +6,8 @@ import Counter2 from "./Components/UseState/Counter2";
 import Counter3 from "./Components/UseState/Counter3";
 import Counter4 from "./Components/UseState/Counter4";
 import SummeryUseState from "./Components/UseState/SummeryUseState";
+// UseEffect import
+import CounterUE from "./Components/UseEffect/CounterUE";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Counter3></Counter3>
       <Counter4></Counter4>
       <SummeryUseState></SummeryUseState>
+      {/* UseEffect */}
+      <CounterUE></CounterUE>
     </div>
   );
 }
