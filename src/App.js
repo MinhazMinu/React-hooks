@@ -12,6 +12,8 @@ import CounterUE2 from "./Components/UseEffect/CounterUE2";
 import MouseUE3 from "./Components/UseEffect/MouseUE3";
 import MouseContainer from "./Components/UseEffect/MouseContainer4";
 import CounterUE5 from "./Components/UseEffect/CounterUE5";
+import DataFetchingUseEffect6 from "./Components/UseEffect/DataFetchingUseEffect6";
+import SearchPostByIdUseEffect7 from "./Components/UseEffect/SearchPostByIdUseEffect7";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       {/* <MouseUE3></MouseUE3> */}
       <MouseContainer></MouseContainer>
       <CounterUE5></CounterUE5>
+      <DataFetchingUseEffect6></DataFetchingUseEffect6>
+      <SearchPostByIdUseEffect7></SearchPostByIdUseEffect7>
     </div>
   );
 }
